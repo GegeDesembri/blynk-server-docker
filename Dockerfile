@@ -79,7 +79,7 @@ ENV INITIAL_ENERGY="100000" \
 # Install OpenJDK
 RUN apk update && \
 	apk add bash && \
-	apk add openjdk11 --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community
+	apk add openjdk21 --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community
 
 ############################################################
 
